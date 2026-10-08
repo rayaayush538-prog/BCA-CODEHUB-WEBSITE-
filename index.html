@@ -1,126 +1,678 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
 <title>MUJ BCA CodeHub: Learn • Code • Build</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="nav"><div class="wrap">
-<a class="logo" href="#top"><span>&lt;/&gt;</span>MUJ BCA CodeHub</a>
+
+<header class="nav">
+<div class="wrap">
+
+<a class="logo" href="#top">
+<span>&lt;/&gt;</span>MUJ BCA CodeHub
+</a>
+
 <nav aria-label="Main">
-<a href="#study">Study</a><a href="#coding">Coding</a><a href="#assignments">Assignments</a>
-<a href="#updates">Updates</a><a href="#roadmap">Roadmap</a><a href="#community">Community</a>
+<a href="#study">Study</a>
+<a href="#coding">Coding</a>
+<a href="#assignments">Assignments</a>
+<a href="#updates">Updates</a>
+<a href="#roadmap">Roadmap</a>
+<a href="#community">Community</a>
 </nav>
-<div class="hd"><button class="ib" id="bell" aria-label="Notifications">🔔<b id="cnt">0</b></button><button class="ib" id="theme" aria-label="Switch light or dark theme">◐</button></div>
-</div></header>
+
+<div class="hd">
+<button class="ib" id="bell" aria-label="Notifications">
+🔔<b id="cnt">0</b>
+</button>
+
+<button class="ib" id="theme" aria-label="Switch light or dark theme">
+◐
+</button>
+</div>
+
+</div>
+</header>
+
 
 <main id="top">
-<section class="hero"><div class="wrap">
+
+<!-- HERO -->
+<section class="hero">
+<div class="wrap">
+
 <div>
-<div class="hero-badge"><span></span> BCA Student Community</div>
+
+<div class="hero-badge">
+<span></span> BCA Student Community
+</div>
+
 <h1>Learn. Code. Build.</h1>
-<p>Your BCA journey starts here — study materials, coding practice, assignments, roadmaps and a community to grow with.</p>
+
+<p>
+Your BCA journey starts here — study materials, coding practice,
+assignments, roadmaps and a community to grow with.
+</p>
+
 <div class="btns">
-<a class="btn p" href="https://t.me/muj_bca" target="_blank" rel="noopener">✈️ Join Telegram</a>
-<a class="btn" href="https://whatsapp.com/channel/0029VbDwy8vCsU9UPanw6X1s" target="_blank" rel="noopener">🟢 WhatsApp Channel</a>
+
+<a class="btn p"
+href="https://t.me/muj_bca"
+target="_blank"
+rel="noopener">
+✈️ Join Telegram
+</a>
+
+<a class="btn"
+href="https://whatsapp.com/channel/0029VbDwy8vCsU9UPanw6X1s"
+target="_blank"
+rel="noopener">
+🟢 WhatsApp Channel
+</a>
+
 </div>
+
+
 <div class="stats">
-<div class="stat"><b>6</b><span>Coding Tracks</span></div>
-<div class="stat"><b>6</b><span>BCA Semesters</span></div>
-<div class="stat"><b>24×7</b><span>Resources</span></div>
-</div>
-</div>
-<div class="win" aria-hidden="true"><div class="bar"><i></i><i></i><i></i></div>
-<pre id="type"></pre></div>
-</div></section>
 
-<section id="study"><div class="wrap">
-<div class="sh"><h2>Study materials</h2><p>Notes, slides and assignments for your semester.</p></div>
-<div class="tabs" role="tablist" aria-label="Type" id="tabs">
-<button class="tab" role="tab" aria-selected="true" data-c="All">All</button>
-<button class="tab" role="tab" aria-selected="false" data-c="Notes">Notes</button>
-<button class="tab" role="tab" aria-selected="false" data-c="PPT">PPT</button>
-<button class="tab" role="tab" aria-selected="false" data-c="Assignments">Assignments</button>
+<div class="stat">
+<b>6</b>
+<span>Coding Tracks</span>
 </div>
+
+<div class="stat">
+<b>6</b>
+<span>BCA Semesters</span>
+</div>
+
+<div class="stat">
+<b>24×7</b>
+<span>Resources</span>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="win" aria-hidden="true">
+
+<div class="bar">
+<i></i>
+<i></i>
+<i></i>
+</div>
+
+<pre id="type"></pre>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- STUDY MATERIALS -->
+<section id="study">
+<div class="wrap">
+
+<div class="sh">
+
+<h2>Study materials</h2>
+
+<p>
+Notes, slides and assignments for your semester.
+</p>
+
+</div>
+
+
+<div class="tabs"
+role="tablist"
+aria-label="Type"
+id="tabs">
+
+<button class="tab"
+role="tab"
+aria-selected="true"
+data-c="All">
+All
+</button>
+
+<button class="tab"
+role="tab"
+aria-selected="false"
+data-c="Notes">
+Notes
+</button>
+
+<button class="tab"
+role="tab"
+aria-selected="false"
+data-c="PPT">
+PPT
+</button>
+
+<button class="tab"
+role="tab"
+aria-selected="false"
+data-c="Assignments">
+Assignments
+</button>
+
+</div>
+
+
 <div class="grid" id="mat"></div>
-</div></section>
 
-<section id="subjects"><div class="wrap">
-<div class="sh"><h2>Semester 1 Subjects</h2><p>Keep your current semester resources organised by subject.</p></div>
+</div>
+</section>
+
+
+<!-- SUBJECTS -->
+<section id="subjects">
+<div class="wrap">
+
+<div class="sh">
+
+<h2>Semester 1 Subjects</h2>
+
+<p>
+Keep your current semester resources organised by subject.
+</p>
+
+</div>
+
+
 <div class="grid g3">
-<a class="card subject" href="#study"><b>💻 C Programming</b><p>Programming basics, logic and problem solving.</p><div class="chiprow"><span class="chip">Notes</span><span class="chip">PPT</span><span class="chip">Assignments</span></div></a>
-<a class="card subject" href="#study"><b>🖥️ Fundamentals of Computers</b><p>Computer systems, digital fundamentals and core concepts.</p><div class="chiprow"><span class="chip">Notes</span><span class="chip">PPT</span></div></a>
-<a class="card subject" href="#study"><b>🌐 Intro Web Programming</b><p>HTML, CSS, JavaScript and web fundamentals.</p><div class="chiprow"><span class="chip">Notes</span><span class="chip">Practice</span></div></a>
-<a class="card subject" href="#study"><b>➗ Fundamentals of Mathematics</b><p>Semester maths concepts and practice material.</p><div class="chiprow"><span class="chip">Notes</span><span class="chip">Questions</span></div></a>
-<a class="card subject" href="#study"><b>🗣️ Technical Communication</b><p>Communication concepts, writing and presentation skills.</p><div class="chiprow"><span class="chip">Notes</span><span class="chip">PPT</span></div></a>
-</div>
-</div></section>
 
-<section id="assignments"><div class="wrap">
-<div class="sh"><h2>Assignments & Practice</h2><p>One place for assignment updates, practice work and important questions.</p></div>
+
+<a class="card subject" href="#study">
+
+<b>💻 C Programming</b>
+
+<p>
+Programming basics, logic and problem solving.
+</p>
+
+<div class="chiprow">
+
+<span class="chip">Notes</span>
+<span class="chip">PPT</span>
+<span class="chip">Assignments</span>
+
+</div>
+
+</a>
+
+
+<a class="card subject" href="#study">
+
+<b>🖥️ Fundamentals of Computers</b>
+
+<p>
+Computer systems, digital fundamentals and core concepts.
+</p>
+
+<div class="chiprow">
+
+<span class="chip">Notes</span>
+<span class="chip">PPT</span>
+
+</div>
+
+</a>
+
+
+<a class="card subject" href="#study">
+
+<b>🌐 Intro Web Programming</b>
+
+<p>
+HTML, CSS, JavaScript and web fundamentals.
+</p>
+
+<div class="chiprow">
+
+<span class="chip">Notes</span>
+<span class="chip">Practice</span>
+
+</div>
+
+</a>
+
+
+<a class="card subject" href="#study">
+
+<b>➗ Fundamentals of Mathematics</b>
+
+<p>
+Semester maths concepts and practice material.
+</p>
+
+<div class="chiprow">
+
+<span class="chip">Notes</span>
+<span class="chip">Questions</span>
+
+</div>
+
+</a>
+
+
+<a class="card subject" href="#study">
+
+<b>🗣️ Technical Communication</b>
+
+<p>
+Communication concepts, writing and presentation skills.
+</p>
+
+<div class="chiprow">
+
+<span class="chip">Notes</span>
+<span class="chip">PPT</span>
+
+</div>
+
+</a>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- ASSIGNMENTS -->
+<section id="assignments">
+<div class="wrap">
+
+<div class="sh">
+
+<h2>Assignments & Practice</h2>
+
+<p>
+One place for assignment updates, practice work and important questions.
+</p>
+
+</div>
+
+
 <div class="assignment-grid">
-<div class="callout"><h3>📝 Assignments</h3><p>Find the latest semester assignments for your semester.</p><a class="pillbtn" href="#study">Open Materials</a></div>
-<div class="callout"><h3>❓ Important Questions</h3><p>Build a practice bank for revision before tests and exams.</p><a class="pillbtn" href="#coding">Start Practice</a></div>
-<div class="callout"><h3>🚀 Projects</h3><p>Turn what you learn into small projects for your portfolio.</p><a class="pillbtn" href="#roadmap">See Roadmap</a></div>
-</div>
-</div></section>
 
-<section id="coding"><div class="wrap">
-<div class="sh"><h2>Coding hub</h2><p>Choose a topic and start practising.</p></div>
+
+<div class="callout">
+
+<h3>📝 Assignments</h3>
+
+<p>
+Find the latest semester assignments for your semester.
+</p>
+
+<a class="pillbtn" href="#study">
+Open Materials
+</a>
+
+</div>
+
+
+<div class="callout">
+
+<h3>❓ Important Questions</h3>
+
+<p>
+Build a practice bank for revision before tests and exams.
+</p>
+
+<a class="pillbtn" href="#coding">
+Start Practice
+</a>
+
+</div>
+
+
+<div class="callout">
+
+<h3>🚀 Projects</h3>
+
+<p>
+Turn what you learn into small projects for your portfolio.
+</p>
+
+<a class="pillbtn" href="#roadmap">
+See Roadmap
+</a>
+
+</div>
+
+
+</div>
+
+</div>
+</section>
+
+
+<!-- CODING -->
+<section id="coding">
+<div class="wrap">
+
+<div class="sh">
+
+<h2>Coding hub</h2>
+
+<p>
+Choose a topic and start practising.
+</p>
+
+</div>
+
+
 <div class="grid g6">
-<a class="card lang" href="#roadmap"><b>C++</b><p>Basics, OOP, STL</p></a>
-<a class="card lang" href="#roadmap"><b>Python</b><p>Scripts to projects</p></a>
-<a class="card lang" href="#roadmap"><b>Java</b><p>Core Java and OOP</p></a>
-<a class="card lang" href="#roadmap"><b>Web</b><p>HTML, CSS, JavaScript</p></a>
-<a class="card lang" href="#roadmap"><b>DSA</b><p>Arrays to graphs</p></a>
-<a class="card lang" href="#roadmap"><b>AI / ML</b><p>First models in Python</p></a>
-</div>
-</div></section>
 
-<section id="updates"><div class="wrap">
-<div class="sh"><h2>Latest updates</h2><p>New notices appear here as soon as the admin posts them. <button class="x" id="al" style="color:var(--blue)">Turn on alerts</button></p></div>
+
+<a class="card lang" href="#roadmap">
+<b>C++</b>
+<p>Basics, OOP, STL</p>
+</a>
+
+
+<a class="card lang" href="#roadmap">
+<b>Python</b>
+<p>Scripts to projects</p>
+</a>
+
+
+<a class="card lang" href="#roadmap">
+<b>Java</b>
+<p>Core Java and OOP</p>
+</a>
+
+
+<a class="card lang" href="#roadmap">
+<b>Web</b>
+<p>HTML, CSS, JavaScript</p>
+</a>
+
+
+<a class="card lang" href="#roadmap">
+<b>DSA</b>
+<p>Arrays to graphs</p>
+</a>
+
+
+<a class="card lang" href="#roadmap">
+<b>AI / ML</b>
+<p>First models in Python</p>
+</a>
+
+
+</div>
+
+</div>
+</section>
+
+
+<!-- UPDATES -->
+<section id="updates">
+<div class="wrap">
+
+<div class="sh">
+
+<h2>Latest updates</h2>
+
+<p>
+New notices appear here as soon as the admin posts them.
+
+<button class="x"
+id="al"
+style="color:var(--blue)">
+Turn on alerts
+</button>
+
+</p>
+
+</div>
+
+
 <ul class="upd" id="upd"></ul>
-</div></section>
 
-<section id="roadmap"><div class="wrap">
-<div class="sh"><h2>BCA roadmap</h2><p>The path most students follow, one step at a time.</p></div>
+</div>
+</section>
+
+
+<!-- ROADMAP -->
+<section id="roadmap">
+<div class="wrap">
+
+<div class="sh">
+
+<h2>BCA roadmap</h2>
+
+<p>
+The path most students follow, one step at a time.
+</p>
+
+</div>
+
+
 <div class="road">
-<div class="step"><b>Learn</b><span>Programming basics and core subjects</span></div>
-<div class="step"><b>Practice</b><span>Solve problems every week</span></div>
-<div class="step"><b>Build</b><span>Make projects for your portfolio</span></div>
-<div class="step"><b>Internship</b><span>Get real work experience</span></div>
-<div class="step"><b>Job</b><span>Apply with skills and proof</span></div>
-</div>
-</div></section>
 
-<section id="community"><div class="wrap">
+<div class="step">
+<b>Learn</b>
+<span>Programming basics and core subjects</span>
+</div>
+
+<div class="step">
+<b>Practice</b>
+<span>Solve problems every week</span>
+</div>
+
+<div class="step">
+<b>Build</b>
+<span>Make projects for your portfolio</span>
+</div>
+
+<div class="step">
+<b>Internship</b>
+<span>Get real work experience</span>
+</div>
+
+<div class="step">
+<b>Job</b>
+<span>Apply with skills and proof</span>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- COMMUNITY -->
+<section id="community">
+<div class="wrap">
+
 <div class="join">
-<div><h2>Join MUJ BCA CodeHub</h2><p>Choose the right place for announcements, resources and student discussion.</p>
+
+
+<div>
+
+<h2>Join MUJ BCA CodeHub</h2>
+
+<p>
+Choose the right place for announcements, resources and student discussion.
+</p>
+
+
 <div class="community-grid">
-<div class="community-card"><b>✈️ Telegram</b><span>Resources & important updates</span></div>
-<div class="community-card"><b>📢 WhatsApp Channel</b><span>Quick announcements</span></div>
-<div class="community-card"><b>💬 Discussion</b><span>Doubts & student discussion</span></div>
-<div class="community-card"><b>📚 Information</b><span>Important community information</span></div>
-</div></div>
+
+
+<!-- TELEGRAM CARD -->
+<a class="community-card"
+href="https://t.me/muj_bca"
+target="_blank"
+rel="noopener">
+
+<b>✈️ Telegram</b>
+
+<span>
+Resources & important updates
+</span>
+
+</a>
+
+
+<!-- WHATSAPP CHANNEL CARD -->
+<a class="community-card"
+href="https://whatsapp.com/channel/0029VbDwy8vCsU9UPanw6X1s"
+target="_blank"
+rel="noopener">
+
+<b>📢 WhatsApp Channel</b>
+
+<span>
+Quick announcements
+</span>
+
+</a>
+
+
+<!-- DISCUSSION GROUP -->
+<a class="community-card"
+href="https://chat.whatsapp.com/Dib8sWIf91y2OQQvFlPtVh"
+target="_blank"
+rel="noopener">
+
+<b>💬 Discussion</b>
+
+<span>
+Doubts & student discussion
+</span>
+
+</a>
+
+
+<!-- INFORMATION GROUP -->
+<a class="community-card"
+href="https://chat.whatsapp.com/F4Ey2ObSKHx835VDrKFJds"
+target="_blank"
+rel="noopener">
+
+<b>📚 Information</b>
+
+<span>
+Important community information
+</span>
+
+</a>
+
+
+</div>
+
+</div>
+
+
+<!-- COMMUNITY BUTTONS -->
 <div class="btns">
-<a class="btn p" href="https://t.me/muj_bca" target="_blank" rel="noopener">✈️ Telegram Channel</a>
-<a class="btn" href="https://whatsapp.com/channel/0029VbDwy8vCsU9UPanw6X1s" target="_blank" rel="noopener">🟢 WhatsApp Channel</a>
+
+
+<a class="btn p"
+href="https://t.me/muj_bca"
+target="_blank"
+rel="noopener">
+
+✈️ Telegram Channel
+
+</a>
+
+
+<a class="btn"
+href="https://whatsapp.com/channel/0029VbDwy8vCsU9UPanw6X1s"
+target="_blank"
+rel="noopener">
+
+🟢 WhatsApp Channel
+
+</a>
+
+
+<a class="btn"
+href="https://chat.whatsapp.com/Dib8sWIf91y2OQQvFlPtVh"
+target="_blank"
+rel="noopener">
+
+💬 Discussion Group
+
+</a>
+
+
+<a class="btn"
+href="https://chat.whatsapp.com/F4Ey2ObSKHx835VDrKFJds"
+target="_blank"
+rel="noopener">
+
+📚 Information Group
+
+</a>
+
+
 </div>
+
+
 </div>
-</div></section>
+
+</div>
+</section>
+
 </main>
 
-<footer><div class="wrap"><b>© MUJ BCA CodeHub</b>Learn • Code • Build
-<br><small>Student resources • Coding • Community</small></div></footer>
+
+<!-- FOOTER -->
+<footer>
+
+<div class="wrap">
+
+<b>© MUJ BCA CodeHub</b>
+
+Learn • Code • Build
+
+<br>
+
+<small>
+Student resources • Coding • Community
+</small>
+
+</div>
+
+</footer>
+
+
 <div class="toast" id="toast" role="status"></div>
-<a class="fab" href="https://whatsapp.com/channel/0029VbDwy8vCsU9UPanw6X1s" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">✆</a>
 
 
-  <script src="script.js"></script>
+<!-- WHATSAPP FLOATING BUTTON -->
+<a class="fab"
+href="https://whatsapp.com/channel/0029VbDwy8vCsU9UPanw6X1s"
+target="_blank"
+rel="noopener"
+aria-label="Chat on WhatsApp">
+
+✆
+
+</a>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>

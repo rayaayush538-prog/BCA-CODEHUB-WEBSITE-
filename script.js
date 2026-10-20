@@ -51,7 +51,7 @@ const semesters = {
 
 const SINGLE_PRICE = 279;
 const BUNDLE_PRICE = 1399;
-const WHATSAPP_NUMBER = "919999999999"; // apna WhatsApp number yahan dal do
+const WHATSAPP_NUMBER = "+91 8750399015"; // 
 
 let selectedSemester = "BCA 1st Semester";
 let selectedSubjects = new Set();
@@ -172,7 +172,7 @@ Please share payment details.
     `.trim();
   } else {
     message = `
-Assalamualaikum,
+Hello bro ,
 I want to buy the following study materials for ${selectedSemester}:
 
 - ${items.join("\n- ")}

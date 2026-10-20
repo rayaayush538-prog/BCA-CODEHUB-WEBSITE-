@@ -51,7 +51,7 @@ const semesters = {
 
 const SINGLE_PRICE = 279;
 const BUNDLE_PRICE = 1399;
-const WHATSAPP_NUMBER = "+91 8750399015"; // 
+const WHATSAPP_NUMBER = "+918750399015"; // 
 
 let selectedSemester = "BCA 1st Semester";
 let selectedSubjects = new Set();

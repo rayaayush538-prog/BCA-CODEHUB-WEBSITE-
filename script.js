@@ -160,7 +160,7 @@ function buildWhatsAppMessage() {
 
   if (isBundle) {
     message = `
-Assalamualaikum,
+Hello bro ,
 I want to buy the full ${selectedSemester} bundle.
 
 Selected Package:

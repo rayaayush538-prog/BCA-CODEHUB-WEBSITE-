@@ -1,11 +1,11 @@
 const semesters = {
   "BCA 1st Semester": [
-    "English",
-    "Computer Fundamentals",
-    "Mathematics",
+    "Environmental science",
+    "Fundamental of computer & digital systems",
+    "Fundamental of mathmatics",
     "C Programming",
-    "Digital Logic",
-    "Communication Skills"
+    "introduction of web programming",
+    "Technical Communication"
   ],
   "BCA 2nd Semester": [
     "Data Structures",

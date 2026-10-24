@@ -49,8 +49,8 @@ const semesters = {
   ]
 };
 
-const SINGLE_PRICE = 149;
-const BUNDLE_PRICE = 749;
+const SINGLE_PRICE = 0 ₹;
+const BUNDLE_PRICE = 0 ₹;
 const WHATSAPP_NUMBER = "+918750399015"; // 
 
 let selectedSemester = "BCA 1st Semester";

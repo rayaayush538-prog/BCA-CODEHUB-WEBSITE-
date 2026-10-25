@@ -49,8 +49,8 @@ const semesters = {
   ]
 };
 
-const SINGLE_PRICE = 99 ₹;
-const BUNDLE_PRICE = 499 ₹;
+const SINGLE_PRICE = 99;
+const BUNDLE_PRICE = 499;
 const WHATSAPP_NUMBER = "+918750399015"; // 
 
 let selectedSemester = "BCA 1st Semester";

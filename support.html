@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f7fa">
+  <title>Support | MUJ BCA CodeHub</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #667085;
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --line: #e5e9f0;
+      --accent: #159653;
+      --soft: #eaf7f0;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    a { text-decoration: none; }
+
+    .topbar {
+      background: white;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      max-width: 1050px;
+      margin: auto;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .brand {
+      color: var(--ink);
+      font-weight: 800;
+      font-size: 1.05rem;
+    }
+
+    .back {
+      color: var(--muted);
+      font-weight: 650;
+      font-size: .9rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 65px 20px 38px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 13px;
+      border-radius: 30px;
+      background: var(--soft);
+      color: #137b43;
+      font-size: .8rem;
+      font-weight: 750;
+      letter-spacing: .3px;
+    }
+
+    .hero h1 {
+      margin: 17px 0 10px;
+      font-size: clamp(2rem, 6vw, 3rem);
+      line-height: 1.15;
+    }
+
+    .hero p {
+      max-width: 570px;
+      margin: auto;
+      color: var(--muted);
+    }
+
+    .container {
+      max-width: 1050px;
+      margin: auto;
+      padding: 15px 20px 65px;
+    }
+
+    .section-heading {
+      margin-bottom: 22px;
+    }
+
+    .section-heading h2 {
+      margin: 0 0 5px;
+      font-size: 1.45rem;
+    }
+
+    .section-heading p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .93rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 17px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 17px;
+      padding: 23px;
+      display: flex;
+      flex-direction: column;
+      min-height: 300px;
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(23,32,51,.07);
+    }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      background: var(--soft);
+      font-size: 1.5rem;
+      margin-bottom: 17px;
+    }
+
+    .card h3 {
+      margin: 0 0 9px;
+      font-size: 1.12rem;
+    }
+
+    .card p {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: .92rem;
+      flex: 1;
+    }
+
+    .points {
+      margin: 0 0 20px;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: .85rem;
+    }
+
+    .points li { margin: 5px 0; }
+
+    .btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: var(--ink);
+      color: white;
+      padding: 12px 15px;
+      border-radius: 10px;
+      font-weight: 750;
+      font-size: .92rem;
+      transition: .2s;
+    }
+
+    .btn:hover { background: #30415f; }
+
+    .note {
+      margin-top: 25px;
+      padding: 17px 19px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      color: var(--muted);
+      font-size: .88rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      background: white;
+      padding: 22px 15px;
+      text-align: center;
+      color: var(--muted);
+      font-size: .85rem;
+    }
+
+    footer strong { color: var(--ink); }
+
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .card { min-height: auto; }
+      .hero { padding-top: 48px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="nav">
+      <a class="brand" href="index.html">CodeHub.</a>
+      <a class="back" href="index.html">← Back to Home</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="tag">CODEHUB STUDENT SUPPORT</span>
+      <h1>How Can We Help You?</h1>
+      <p>Assignment guidance, assignment preparation enquiries
+      and LMS-related support — choose the service you need.</p>
+    </section>
+
+    <section class="container">
+      <div class="section-heading">
+        <h2>Choose Your Support</h2>
+        <p>Select a category to connect with our support team.</p>
+      </div>
+
+      <div class="grid">
+
+        <article class="card">
+          <div class="icon">✍️</div>
+          <h3>Assignment Making Help</h3>
+          <p>Need help understanding or preparing your assignment? Get guidance from CodeHub.</p>
+          <ul class="points">
+            <li>Understand assignment questions</li>
+            <li>Answer structure and formatting</li>
+            <li>Guidance using e-content</li>
+          </ul>
+          <a class="btn"
+             href="https://wa.me/918750399015?text=Hello%20CodeHub%2C%20I%20need%20guidance%20for%20making%20my%20assignment."
+             target="_blank" rel="noopener">
+            Get Assignment Help →
+          </a>
+        </article>
+
+        <article class="card">
+          <div class="icon">📄</div>
+          <h3>Assignment Preparation</h3>
+          <p>Want to enquire about assignment preparation services? Contact us for details.</p>
+          <ul class="points">
+            <li>Subject-wise information</li>
+            <li>Pricing and process details</li>
+            <li>Preparation service enquiry</li>
+          </ul>
+          <a class="btn"
+             href="https://wa.me/918750399015?text=Hello%20CodeHub%2C%20I%20want%20to%20know%20about%20assignment%20preparation%20services."
+             target="_blank" rel="noopener">
+            Enquire Now →
+          </a>
+        </article>
+
+        <article class="card">
+          <div class="icon">🛠️</div>
+          <h3>LMS Issue Support</h3>
+          <p>Facing a problem with your university LMS? Tell us what issue you are experiencing.</p>
+          <ul class="points">
+            <li>Login and portal access</li>
+            <li>Assignment upload problems</li>
+            <li>Submission-related queries</li>
+          </ul>
+          <a class="btn"
+             href="https://wa.me/918750399015?text=Hello%20CodeHub%2C%20I%20need%20help%20with%20an%20LMS%20issue."
+             target="_blank" rel="noopener">
+            Get LMS Support →
+          </a>
+        </article>
+
+      </div>
+
+      <div class="note">
+        <strong>Need more help?</strong><br>
+        Contact CodeHub Support on WhatsApp:
+        <strong>+91 87503 99015</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>MUJ BCA CodeHub</strong><br>
+    Learn • Code • Build<br>
+    <span>Independent student community · Not affiliated with the university</span>
+  </footer>
+
+</body>
+</html>

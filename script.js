@@ -160,7 +160,7 @@ function buildWhatsAppMessage() {
 
   if (isBundle) {
     message = `
-Hello bro ,
+Hello bro ☺️ ,
 I want to buy the full ${selectedSemester} bundle.
 
 Selected Package:
@@ -172,7 +172,7 @@ Please share payment details.
     `.trim();
   } else {
     message = `
-Hello bro ,
+Hello bro ☺️ ,
 I want to buy the following study materials for ${selectedSemester}:
 
 - ${items.join("\n- ")}

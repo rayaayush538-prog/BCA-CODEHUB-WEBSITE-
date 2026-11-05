@@ -248,6 +248,9 @@ if (menuToggle && mainNav) {
 }
 
 
+//
+/*
+
 // ===== CODEHUB REELS PLAYER =====
 
 const reelCards = document.querySelectorAll(".reel-card");
@@ -317,4 +320,4 @@ reelCards.forEach((card) => {
   }
 });
 
-// ===== END CODEHUB REELS PLAYER =====
+// ===== END CODEHUB REELS PLAYER ===== */

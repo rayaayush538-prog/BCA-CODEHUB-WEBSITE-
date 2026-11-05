@@ -458,3 +458,196 @@ footer {
     border-color: var(--ink);
   }
 }
+
+/* ===== CODEHUB DIWALI PREMIUM THEME ===== */
+
+:root {
+  --ink: #4a160d;
+  --muted: #81513b;
+  --bg: #fff8ed;
+  --card: #fffdf8;
+  --line: #f0d5a7;
+  --accent: #e87512;
+  --accent-dark: #b94d08;
+  --accent-soft: #fff0d5;
+  --radius: 16px;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, #fff0d2 0%, #fff8ed 45%, #fffaf4 100%);
+  color: var(--ink);
+}
+
+header {
+  background: rgba(255, 248, 237, 0.97);
+  border-bottom: 1px solid #e9bd70;
+  box-shadow: 0 4px 18px rgba(125, 55, 8, 0.08);
+}
+
+.brand-name {
+  color: #8b310d;
+}
+
+nav a {
+  color: #79320f;
+}
+
+nav a:hover {
+  background: #ffe6bd;
+  color: #a53c06;
+}
+
+.hero {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 65px 0 55px;
+  background:
+    radial-gradient(circle at 50% 0%, #7a1e0a, #3d1008 75%);
+  color: #fff4d5;
+  border-bottom: 3px solid #e8a93d;
+}
+
+.hero h1 {
+  color: #ffd878;
+  text-shadow: 0 0 20px rgba(255, 177, 48, 0.4);
+}
+
+.hero p {
+  color: #ffe8c1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero .tagline {
+  color: #ffcf70;
+}
+
+.diwali-badge {
+  display: inline-block;
+  padding: 8px 18px;
+  margin-bottom: 20px;
+  border: 1px solid #f4c65e;
+  border-radius: 999px;
+  background: rgba(255, 190, 65, 0.12);
+  color: #ffdf8a;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.diwali-lights {
+  margin-top: 30px;
+  font-size: 1.8rem;
+  letter-spacing: 8px;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #f59e0b, #d9480f);
+  color: #fff;
+  border: 1px solid #ffcf70;
+}
+
+.btn-light {
+  color: #fff1ce;
+  border-color: #e9b75c;
+}
+
+.btn-order {
+  background: linear-gradient(135deg, #f59e0b, #c2410c);
+}
+
+.card,
+.subject-card {
+  border-color: #f0d5a7;
+  box-shadow: 0 5px 18px rgba(125, 55, 8, 0.05);
+}
+
+.update {
+  border-left-color: #e87512;
+}
+
+.tab.active {
+  background: linear-gradient(135deg, #9a3412, #e87512);
+  border-color: #e87512;
+}
+
+.bundle {
+  background: #fff1d6;
+  border-color: #e9bd70;
+}
+
+.subject-card.selected {
+  background: #fff1d6;
+  border-color: #e87512;
+}
+
+footer {
+  background: #3d1008;
+  border-top: 2px solid #e8a93d;
+}
+
+.footer-text {
+  color: #ffe5b5;
+}
+
+.social a {
+  color: #ffe5b5;
+  border-color: #a85b25;
+}
+
+/* Responsive menu */
+
+.menu-toggle {
+  display: none;
+  background: #8b310d;
+  color: #fff4d5;
+  border: 1px solid #e8a93d;
+  border-radius: 10px;
+  padding: 8px 13px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .header-row {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 10px;
+  }
+
+  nav.open {
+    display: flex;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: left;
+    background: #fff0d5;
+    border: 1px solid #f0d5a7;
+  }
+
+  .hero {
+    padding: 48px 0 40px;
+  }
+
+  .diwali-lights {
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+  }
+}

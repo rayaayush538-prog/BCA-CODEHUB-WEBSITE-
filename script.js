@@ -246,3 +246,75 @@ if (menuToggle && mainNav) {
     });
   });
 }
+
+
+// ===== CODEHUB REELS PLAYER =====
+
+const reelCards = document.querySelectorAll(".reel-card");
+
+reelCards.forEach((card) => {
+  const video = card.querySelector(".reel-video");
+  const playButton = card.querySelector(".reel-play-btn");
+
+  function openReel() {
+    const reelModal = document.createElement("div");
+
+    reelModal.className = "reel-modal";
+
+    reelModal.innerHTML = `
+      <button class="reel-close-btn" aria-label="Close video">
+        ✕
+      </button>
+      <video class="reel-modal-video" controls autoplay playsinline>
+      </video>
+    `;
+
+    const modalVideo = reelModal.querySelector(".reel-modal-video");
+
+    modalVideo.src = video.currentSrc || video.src;
+    modalVideo.muted = false;
+
+    document.body.appendChild(reelModal);
+    document.body.style.overflow = "hidden";
+
+    modalVideo.play().catch(() => {
+      modalVideo.controls = true;
+    });
+
+    function closeReel() {
+      modalVideo.pause();
+      modalVideo.removeAttribute("src");
+      modalVideo.load();
+
+      reelModal.remove();
+      document.body.style.overflow = "";
+    }
+
+    reelModal.querySelector(".reel-close-btn")
+      .addEventListener("click", closeReel);
+
+    reelModal.addEventListener("click", (event) => {
+      if (event.target === reelModal) {
+        closeReel();
+      }
+    });
+
+    document.addEventListener("keydown", function escapeHandler(event) {
+      if (event.key === "Escape") {
+        closeReel();
+        document.removeEventListener("keydown", escapeHandler);
+      }
+    });
+  }
+
+  card.addEventListener("click", openReel);
+
+  if (playButton) {
+    playButton.addEventListener("click", (event) => {
+      event.stopPropagation();
+      openReel();
+    });
+  }
+});
+
+// ===== END CODEHUB REELS PLAYER =====

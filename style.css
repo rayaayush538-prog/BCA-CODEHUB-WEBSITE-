@@ -4,14 +4,14 @@
    ===================================== */
 :root {
   --ink: #172033;
-  --muted: #5b6578;
+  --muted: #64748b;
   --bg: #f5f7fa;
   --card: #ffffff;
-  --line: #e2e7ef;
-  --accent: #1c9e52;
-  --accent-dark: #167f41;
-  --accent-soft: #eaf7f0;
-  --radius: 12px;
+  --line: #e2e8f0;
+  --accent: #2563eb;
+  --accent-dark: #1d4ed8;
+  --accent-soft: #eff6ff;
+  --radius: 16px;
 }
 
 * { box-sizing: border-box; }
